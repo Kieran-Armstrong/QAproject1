@@ -9,5 +9,6 @@ For the purpose of tracking my project, I will be using an application called Tr
 
  
  I have used LucidChart to create my entity relationship diagram. This application allowed me to easily create diagrams to help visualise my database structure.
+ 
  (![ERD](https://github.com/Kieran-Armstrong/QAproject1/blob/main/images/ERD.PNG) 
  
