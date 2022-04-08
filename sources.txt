@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/27539309/how-do-i-create-a-link-to-another-html-page
+
+https://www.w3schools.com/html/html_forms.asp
