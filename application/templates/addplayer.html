@@ -1,0 +1,12 @@
+{% extends 'navBar.html' %} 
+
+{% block body %}
+<h1>Add a Player Here</h1>
+<form action="" method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.name.label }} {{ form.name }}<br>
+    {{ form.position.label }} {{ form.position }}<br>
+    {{ form.team_id.label }} {{ form.team_id }}<br>
+    {{ form.submit }} {{ form.game_id }}
+</form>
+{% endblock body %}

@@ -1,14 +1,7 @@
-<html>
-    <head>
-        <title>Home</title>
-    </head>
-    <body>
+{% extends 'navBar.html' %} 
+{% block title %}
+<title>Premier League Teams</title>
+{% endblock %}
+{% block content %}
 
-        <h1>Premier League Players</h1>
-        
-        <a href="{{ url_for('players') }}">Edit/View Players</a>
-        <br>
-        <a href="{{ url_for('teams') }}">Edit/View Teams</a>
-
-    </body>
-</html>
+{% endblock %}
