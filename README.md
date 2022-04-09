@@ -14,5 +14,20 @@ For the purpose of tracking my project, I will be using an application called Tr
  
  ## Risk Assessment
  
+ ## Front End 
+ I have created a simple user interface that allows users to navigate to different pages.
+ Users can create, read, update and delete both players and teams by navigating to the relevant page and using the data entry fields. Changes are enforced using buttons
+(![home]https://github.com/Kieran-Armstrong/QAproject1/blob/main/images/home.PNG)
+
+This page allows user to add a team
+(![addTeam]https://github.com/Kieran-Armstrong/QAproject1/blob/main/images/addTeams.PNG)
+
+This page allows user to view teams
+(![viewTeam]https://github.com/Kieran-Armstrong/QAproject1/blob/main/images/viewTeams.PNG)
+
+This page allows user to add players
+(![addPlayer]https://github.com/Kieran-Armstrong/QAproject1/blob/main/images/addPlayer.PNG)
  
+ This page allows user to view players
+ (![viewPlayers]https://github.com/Kieran-Armstrong/QAproject1/blob/main/images/viewPlayers.PNG)
  
