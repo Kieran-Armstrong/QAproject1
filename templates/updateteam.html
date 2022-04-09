@@ -1,0 +1,11 @@
+{% extends 'navBar.html' %} 
+
+{% block body %}
+<form action="{{ url_for('update_team', id = id) }}" method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.teamName.label }} {{ form.teamName }}
+    {{ form.stadium.label }} {{ form.stadium }}
+    {{ form.city.label }} {{ form.city }}
+    {{ form.submit }}
+</form>
+{% endblock body %}

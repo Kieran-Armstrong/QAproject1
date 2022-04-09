@@ -1,0 +1,8 @@
+{% extends 'navBar.html' %}
+
+{% block body %}
+<h2>Teams</h2>
+{% for teams in all_teams %}
+    {{teams.id}} {{teams.teamName}}<br> {{teams.stadium}}<br> {{teams.city}}<br> <a href="{{ url_for('update_team', id = teams.id) }}"><button type="button">Update Team</button></a><a href="{{ url_for('delete_team', id = teams.id) }}"><button type="button">Delete Team</button></a> </p><br>
+{% endfor %}
+{% endblock %}

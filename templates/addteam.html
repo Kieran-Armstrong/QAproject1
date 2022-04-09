@@ -1,0 +1,12 @@
+{% extends 'navBar.html' %} 
+
+{% block body %}
+<h1>Add a Team Here</h1>
+<form action="" method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.teamName.label }} {{ form.teamName }}<br>
+    {{ form.stadium.label }} {{ form.stadium }}<br>
+    {{ form.city.label }} {{ form.city }}<br>
+    {{ form.submit }}
+</form>
+{% endblock body %}
