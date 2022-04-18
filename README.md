@@ -16,6 +16,10 @@ For the purpose of tracking my project, I will be using an application called Tr
  I have created and maintained a risk assessment, adding to it as new risks were realised. As this is a relatively simple app with few dependencies, there are not many risks present
  (![RA](https://github.com/Kieran-Armstrong/QAproject1/blob/main/images/RA.png)
  
+ ## CI Pipeline 
+ The image below is a basic flowchart for the CI pipeline in place for this project, along with the software used at each stage.
+ (![pipeline](https://github.com/Kieran-Armstrong/QAproject1/blob/main/images/ciPipeline.PNG)
+ 
  ## Front End 
  I have created a simple user interface that allows users to navigate to different pages.
  Users can create, read, update and delete both players and teams by navigating to the relevant page and using the data entry fields. Changes are enforced using buttons
